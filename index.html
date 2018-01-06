@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>TPP1 Compatibility Tracker</title>
+<style>
+body {
+	background-color: #e0b0ff;
+}
+td.failure {
+	background-color: #fd0000;
+}
+td.success {
+	background-color: #00fd00;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+table,th,td {
+	border: 1px solid black;
+}
+hr {
+	background-color: black;
+	color: black;
+}
+</style>
+</head>
+<body>
+<h1>TPP Compatibility Tracker</h1>
+<em>Expect a lot of failures, this is still pretty new</em>
+<table>
+	<tr>
+		<th>Emulator</th>
+		<th>Did it load?</th>
+		<th>Error Count</th>
+	</tr>
+	<tr>
+		<td>bgb*</td>
+		<td class="failure">false</td>
+		<td>0</td>
+	</tr>
+</table>
+<hr noshade>
+<h2>Notes for bgb</h2>
+<p>When attempting to load the test ROM in bgb 1.5.6, it errors with the message "Bad file size: 16777216" and refuses to load the ROM.
+</p>
+<hr noshade>
+<p>Reminder that, since TPP1 is relatively new still, not many emulators will support it.</p>
+<p><a href="https://github.com/MineRobber9000/tpp1-compat">Give me more emulators that crash!</a></p>
+</body>
+</html>

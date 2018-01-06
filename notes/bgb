@@ -1,0 +1,1 @@
+When attempting to load the test ROM in bgb 1.5.6, it errors with the message "Bad file size: 16777216" and refuses to load the ROM.
